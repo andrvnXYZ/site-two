@@ -77,11 +77,6 @@ use Illuminate\Http\Request;
         return response()->json(['message' => 'User deleted successfully']);
 
 
-
-
-
-
-
       /*
         if($user){ 
             $user->delete();

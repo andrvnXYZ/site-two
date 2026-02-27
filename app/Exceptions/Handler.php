@@ -92,9 +92,6 @@ class Handler extends ExceptionHandler
         ], $exception->getStatusCode());
     }
 
- 
-
-
 
         return response()->json([
             'error' => 'Unexpected Exception',
