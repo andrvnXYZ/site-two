@@ -73,8 +73,7 @@ class Handler extends ExceptionHandler
     // instance not found
     if ($exception instanceof ModelNotFoundException) {
     $model = strtolower(class_basename($exception->getModel()));
-    return $this->errorResponse("Does not exist any instance of
-    {$model} with the given id",
+    return $this->errorResponse("NOOOOO no existing ID",
     Response::HTTP_NOT_FOUND);
     }
 
